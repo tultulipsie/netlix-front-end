@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Netflix - Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <div class="navbar">
+        <div>
+            <img src="https://about.netflix.com/images/logo.png" alt="Netflix" height="50">
+        </div>
+        <div>
+            <span>Home</span>
+            <a href="#">TV Shows</a>
+            <a href="#">Movies</a>
+            <a href="#">New & Popular</a>
+            <a href="#">My List</a>
+        </div>
+    </div>
+
+    <!-- Hero Section --> 
+    <div class="hero">
+        <div>
+            <h1>Niharika Singh </h1>
+            <p>IT,1st year,Barkatullah University</p>
+            <p>Watch the latest trending shows now.</p>
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <h2>Trending Now</h2>
+        <div class="row">
+            <!-- Movie Images (Add event listeners to show descriptions and play button) -->
+            <img class="movie" src="./junglebook.jpg" alt="Show 1" data-title="Jungle Book" data-description="The Jungle Book is an adventure film..." data-play-url="https://www.netflix.com/watch/12345678">
+            <img class="movie" src="./lucy.jpg" alt="Show 2" data-title="Show 2" data-description="Description for Show 2" data-play-url="https://www.netflix.com/watch/23456789">
+            <img class="movie" src="./avatar.jpg" alt="Show 3" data-title="Show 3" data-description="Description for Show 3" data-play-url="https://www.netflix.com/watch/34567890">
+            <img class="movie" src="./bbt.jpg" alt="Show 4" data-title="show 4" data-description="Description for show 4" data-play-url="https://www.netflix.com/watch/12345678">
+            <img class="movie" src="./jungkook.jpg" alt="Show 5" data-title="Show 5" data-description="Description for Show 5" data-play-url="https://www.netflix.com/watch/23456789">
+            <img class="movie" src="./The Amazing Spiderman  Movie Review.jpg" alt="Show 6 " data-title="Show 6" data-description="Description for Show 6" data-play-url="https://www.netflix.com/watch/34567890">
+        </div>
+
+        <h2>Top 10 in Your Country</h2>
+        <div class="row">
+            <img class="movie" src="./elevation.webp" alt="Show 7" data-title="Show 7" data-description="Description for Show 7" data-play-url="https://www.netflix.com/watch/45678901">
+            <img class="movie" src="./captain.jpg" alt="Show 8" data-title="Show 8" data-description="Description for Show 8" data-play-url="https://www.netflix.com/watch/56789012">
+            <img class="movie" src="./resident.jpg" alt="Show 9" data-title="Show 9" data-description="Description for Show 9" data-play-url="https://www.netflix.com/watch/67890123">
+            <img class="movie" src="./Messi.jpg" alt="Show 10" data-title="Show 10" data-description="Description for Show 10" data-play-url="https://www.netflix.com/watch/45678901">
+            <img class="movie" src="./f1.jpg" alt="Show 11" data-title="Show 11" data-description="Description for Show 11" data-play-url="https://www.netflix.com/watch/56789012">
+            <img class="movie" src="./frnds.jpg" alt="Show 12" data-title="Show 12" data-description="Description for Show 12" data-play-url="https://www.netflix.com/watch/67890123">
+        </div>
+
+        <!-- Movie Description & Play Button (Initially hidden) -->
+        <div id="movie-info" class="movie-info" style="display: none;">
+            <h3 id="movie-title"></h3>
+            <p id="movie-description"></p>
+            <button id="play-button" class="btn btn-primary">Play</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>2024 Netflix, Inc.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./net.js"></script>
+</body>
+</html>
