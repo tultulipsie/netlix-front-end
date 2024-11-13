@@ -1,0 +1,16 @@
+Netflix Clone Frontend
+
+This project is a Netflix-inspired frontend interface built using HTML and CSS. The homepage includes a responsive navigation bar with the Netflix logo and organized sections displaying show thumbnails. The design features a visually appealing layout with rows for all available shows, including a dedicated row for the Top 10 Trending Shows.
+
+Features
+
+Navigation Bar: Includes the Netflix logo and placeholder links for a user-friendly experience.
+
+Show Thumbnails: Display of all available shows, creating a familiar Netflix browsing experience.
+
+Top 10 Trending Shows: A separate row that highlights trending shows, making it easy to discover popular content.
+
+Responsive Design: Optimized for various screen sizes to ensure accessibility on different devices.
+
+
+This project provides a clean and minimalistic Netflix-like frontend using only HTML and CSS. Perfect for those interested in web design and frontend development.
